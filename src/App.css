@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* List styles */
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List item styles */
+.list-item {
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button styles */
+.delete-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
